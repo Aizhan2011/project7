@@ -1,0 +1,134 @@
+.aboutUsPage {
+    width: 100%;
+}
+
+.aboutUsPage .aboutBg {
+    background: url(../../img/aboutUsBg.jpg) no-repeat center/cover;
+    width: 100%;
+    height: 430px;
+}
+
+.aboutUsPage .container h2 {
+    font-family: 'Hero New', sans-serif;
+    color: #151515;
+    font-size: 40px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+
+.aboutUsPage .container h3 {
+    font-family: 'Hero New', sans-serif;
+    color: #999;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.aboutUsPage .container .internship__main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 30px;
+    justify-content: space-between;
+}
+
+.internShipBg {
+    width: 510px;
+    height: 469px;
+    /* margin-right: 100px; */
+    margin-bottom: 50px;
+}
+
+
+.internationalBg {
+    background: url(../../img/internationalBg.svg) no-repeat center/cover;
+}
+
+.first__intership__bg {
+    background: url(../../img/firstProgramBg.svg) no-repeat center/cover;
+
+}
+
+.internship__oae {
+    background: url(../../img/internshipOae.svg) no-repeat center/cover;
+}
+
+.internShip__georgia__bg {
+    background: url(../../img/intertnShipGeorgia.svg) no-repeat center/cover;
+}
+
+.results__bg {
+    background: url(../../img/resultsBg.svg) no-repeat center/cover;
+}
+
+.aboutUsPage .container .internship__main .about__txt {
+    width: 560px;
+    text-align: start;
+}
+
+.aboutUsPage .container .internship__main .about__txt h3 {
+    color: #777;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Hero New', sans-serif;
+}
+
+
+
+@media(max-width:900px) {
+    .aboutUsPage {
+        height: auto;
+    }
+
+    .aboutUsPage .aboutBg {
+        background-position: 1% 100%;
+        height: 50vh;
+        margin-top: 100px;
+    }
+
+    .aboutUsPage .container h2 {
+        font-size: 27px;
+        /* text-align: left; */
+    }
+
+    .internShipBg {
+        width: 100%;
+    }
+
+    .aboutUsPage .container .internship__main {
+        display: flex;
+    }
+
+    .internationalBg {
+        order: -7;
+    }
+
+    .first__txt {
+        order: -6;
+    }
+
+    .first__intership__bg {
+        order: -5;
+    }
+
+    .second__txt {
+        order: -4;
+    }
+
+    .internShip__georgia__bg {
+        order: -3;
+    }
+
+
+    .third__txt {
+        order: -2;
+    }
+
+
+    .aboutUsPage .container .internship__main .about__txt {
+        width: 100%;
+    }
+
+
+}

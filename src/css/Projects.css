@@ -1,0 +1,127 @@
+.projects {
+    width: 100%;
+    /* margin-top: -300px; */
+}
+
+.projects h2 {
+    font-family: 'Hero New', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #151515;
+}
+
+.projects .line {
+    width: 40px;
+    border-top: 4px solid #4777A7;
+}
+
+.main__project {
+    margin-top: 50px;
+}
+
+.project__child {
+    width: 384px;
+    height: 372px;
+    padding-left: 15px;
+}
+
+
+.project__child h4 {
+    color: #151515;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    width: 80%;
+    height: 15%;
+}
+
+.project__child h5 {
+    color: #999;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+
+.child__bg {
+    width: 384px;
+    height: 236px;
+}
+
+.first__child {
+    background: url(../img/projectFirstBG.svg) no-repeat center/cover;
+}
+
+.second__child {
+    background: url(../img/projectSecondBg.svg) no-repeat center/cover;
+}
+
+.third__child {
+    background: url(../img/projectThirdBg.svg) no-repeat center/cover;
+}
+
+
+.forth__child {
+    background: url(../img/projectForthBg.svg) no-repeat center/cover;
+}
+
+.fifth__child {
+    background: url(../img/projectFifthBg.svg) no-repeat center/cover;
+}
+
+
+.projects .main__project .slick-dots {
+    transform: translateY(100px);
+}
+
+.slick-slider .slick-arrow::before {
+    padding: 5px;
+    color: #151515;
+    background: #EEEEEE;
+}
+
+
+.hr {
+    width: 100%;
+    border-bottom: 2px solid #e1e1e1;
+    padding-top: 30px;
+}
+
+
+.projects .main__project .slick-slider .slick-dots li button::before {
+    display: block;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    color: transparent;
+    border: 1px solid #fff;
+    outline: none;
+    background-color: transparent;
+    background-color: rgb(80, 78, 78);
+    border-radius: 50%;
+    content: "" !important;
+}
+
+.projects .main__project .slick-slider .slick-dots .slick-active button::before {
+    background-color: #4777A7;
+    border-radius: 50%;
+}
+
+
+@media(max-width: 900px) {
+    .projects {
+        height: auto;
+    }
+
+    .projects h2 {
+        font-size: 27px;
+    }
+
+    .project__child {
+        padding-left: 0;
+    }
+
+    .project__child h5 {
+        padding-top: 10px;
+    }
+}

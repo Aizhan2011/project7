@@ -1,0 +1,319 @@
+.tabBlog {
+    width: 100%;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.tabBlog .pageBg {
+    width: 100%;
+    height: 330px;
+    background: url(../../img/ourProjectPageBg.svg) no-repeat center/cover;
+}
+
+.tabBlog .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.tabBlog .container .project__page {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.our__project__nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.title__line h2 {
+    font-family: 'Hero New', sans-serif;
+    color: #151515;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tab {
+    background: #A4BED8;
+    padding: 15px 70px 15px 70px;
+    margin-right: 10px;
+    font-family: 'Hero New', sans-serif;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.active {
+    background: #4777A7;
+}
+
+
+
+.main__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 20px;
+}
+
+.content {
+    width: 384px;
+    height: 236px;
+}
+
+.txt__content {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 62%;
+}
+
+.txt__content h2 {
+    font-family: 'Hero New', sans-serif;
+    color: #151515;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.txt__content h4 {
+    color: #777;
+    font-family: 'Hero New', sans-serif;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.btns {
+    width: 90%;
+}
+
+.btns .btn__download {
+    font-family: 'Hero New', sans-serif;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    background: #4777A7;
+    padding: 15px 50px 15px 50px;
+    margin-right: 20px;
+}
+
+.btns .btn__sign {
+    font-family: 'Hero New', sans-serif;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    background: #69ABED;
+    padding: 15px 40px 15px 40px;
+
+}
+
+
+.btn__sign__finished {
+    font-family: 'Hero New', sans-serif;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    background: #b5b5b5;
+    padding: 15px 40px 15px 40px;
+}
+
+.content__first__active {
+    background: url(../../img/projectFirstBG.svg) no-repeat center/cover;
+
+}
+
+.content__second__active {
+    background: url(../../img/projectSecondBg.svg) no-repeat center/cover;
+}
+
+.content__third__active {
+    background: url(../../img/projectThirdBg.svg) no-repeat center/cover;
+}
+
+.content__forth__active {
+    background: url(../../img/projectForthBg.svg) no-repeat center/cover;
+}
+
+.content__fifth__active {
+    background: url(../../img/projectFifthBg.svg) no-repeat center/cover;
+}
+
+
+/* --------------------------------------------------------------------------------------------------------------------- */
+
+/* FINISHED PAGE */
+
+
+.page__finished {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+
+.content__finished {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 384px;
+    height: 40%;
+}
+
+.finish {
+    width: 384px;
+    height: 236px;
+}
+
+
+.finished__first {
+    background: url(../../img/professionalMaster.svg);
+}
+
+.finished__second {
+    background: url(../../img/modernStandarts.svg);
+}
+
+
+.finished__third {
+    background: url(../../img/modernEducation.svg);
+}
+
+.finished__forth {
+    background: url(../../img/practical.svg);
+}
+
+.finished__fifth {
+    background: url(../../img/educationSystem.svg);
+}
+
+.finished__sixth {
+    background: url(../../img/systemOrganization.svg);
+}
+
+.finished__seventh {
+    background: url(../../img/modernStandartsEducation.svg);
+}
+
+.content__finished h2 {
+    color: #151515;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    font-family: 'Hero New', sans-serif;
+}
+
+.content__finished h4 {
+    font-family: 'Hero New', sans-serif;
+    color: #888;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+@media(max-width:900px) {
+    .our__project__nav {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .our__project__nav h2 {
+        font-size: 27px;
+    }
+
+    .our__project__nav .tabs {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .our__project__nav .tabs .tab {
+        margin-bottom: 20px;
+        padding: 7px 7px;
+        font-size: 15px;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .tabsContent .project__page .main__content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .txt__content {
+        width: 100%;
+    }
+
+    .txt__content .btns {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .txt__content .btns .btn__download {
+        padding: 5px 25px;
+        font-size: 12px;
+    }
+
+
+    .txt__content .btns .btn__sign__finished {
+        padding: 5px 25px;
+        font-size: 12px;
+    }
+
+    .txt__content .btns .btn__sign {
+        padding: 5px 25px;
+        font-size: 12px;
+    }
+
+
+    .content__finished {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .finish {
+        width: 100%;
+    }
+}

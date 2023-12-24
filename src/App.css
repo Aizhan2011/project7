@@ -1,0 +1,64 @@
+* {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1215px;
+    margin: 0 auto;
+    width: 85%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.ReactModal__Overlay,
+.ReactModal__Overlay--after-open {
+    background: rgb(0, 0, 0, 0.6) !important;
+    z-index: 999 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes move {
+    0% {}
+
+    100% {
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+
+@media(max-width: 900px) {
+    .container {
+        width: 90%;
+    }
+
+    footer {
+        height: auto;
+    }
+
+    footer .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .navigation {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .design {
+        text-align: center;
+        width: 100% !important;
+    }
+}

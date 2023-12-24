@@ -1,0 +1,48 @@
+.certificates__block{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__check__block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 150px;
+}
+
+.main__check__block .check__bg{
+    width: 65%;
+    height: 520px;
+    background: url(../../img/certificateBg.svg) no-repeat center/cover;
+}
+
+.main__check__block .check__article{
+    width: 48%;
+    margin-left: 30px;
+}
+
+.main__check__block .check__article h2{
+    font-family: 'Hero New', sans-serif;
+    color: #151515;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.main__check__block .check__article h4{
+    font-family: 'Hero New', sans-serif;
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.main__check__block .check__article h3{
+    font-family: 'Hero New', sans-serif;
+    color: #151515;
+    font-size: 20px;
+    font-weight: 400;
+    border-bottom: 1px solid #dbdbdb;
+    padding-bottom: 5px;
+}
