@@ -40,7 +40,12 @@ function Home() {
                 </h4>
               </article>
             </div>
+            <div className="social__icons">
+            <a className="social__Wapp"></a>
+            <a className="social__insta"></a>
           </div>
+          </div>
+     
         </nav>
         <nav className="slide">
           <div className="thirdSlide">
@@ -56,6 +61,10 @@ function Home() {
                 </h4>
               </article>
             </div>
+            <div className="social__icons">
+            <a className="social__Wapp"></a>
+            <a className="social__insta"></a>
+          </div>
           </div>
         </nav>
         <nav className="slide">
@@ -71,6 +80,10 @@ function Home() {
                 </h4>
               </article>
             </div>
+            <div className="social__icons">
+            <a className="social__Wapp"></a>
+            <a className="social__insta"></a>
+          </div>
           </div>
         </nav>
         <nav className="slide">
@@ -88,6 +101,10 @@ function Home() {
                 </h4>
               </article>
             </div>
+            <div className="social__icons">
+            <a className="social__Wapp"></a>
+            <a className="social__insta"></a>
+          </div>
           </div>
         </nav>
         <nav className="slide">
@@ -104,6 +121,10 @@ function Home() {
                 </h4>
               </article>
             </div>
+            <div className="social__icons">
+            <a className="social__Wapp"></a>
+            <a className="social__insta"></a>
+          </div>
           </div>
         </nav>
         <nav className="slide">
@@ -120,6 +141,10 @@ function Home() {
                 </h4>
               </article>
             </div>
+            <div className="social__icons">
+            <a className="social__Wapp"></a>
+            <a className="social__insta"></a>
+          </div>
           </div>
         </nav>
       </Slider>

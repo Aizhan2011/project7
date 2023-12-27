@@ -37,8 +37,7 @@ const [value, setValue] = useState("");
     //     </button>
     //   </form>
     // </Modal>
-
-    <h2>Hello guys!</h2>
+<h2></h2>
   );
 }
 

@@ -37,14 +37,16 @@ function OurProjectPage() {
     setActiveTxt(event.target.textContent)
     console.log(event.target.textContent)
   }
+
   const openModal = () => {
     setModalIsOpen(true);
+    handleTxt()
+
   };
 
   const closeModal = () => {
     setModalIsOpen(false);
     setActiveTxt(false)
-
   };
 
   const numberValidation = (el) => {
